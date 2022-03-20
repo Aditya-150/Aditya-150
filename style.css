@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "brink brush";
+  src: url("../assets/cm-brink-brush-font-3894864/Brink.otf");
+}
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: url(../assets/background.svg);
+  overflow-x: hidden;
+}
+.HeroTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HeroTitle {
+  font-size: 16em;
+  font-family: "brink brush";
+  color: #ffffff;
+  margin-top: 2em;
+}
